@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.secondweekassignment">
+    package="com.example.classassessment">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -16,41 +16,41 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ExampleActivity"></activity>
-        <activity android:name=".FlagAppActivity" />
-        <activity android:name=".RetrofitEmpActivity" />
-        <activity android:name=".UpdateActivity" />
-        <activity android:name=".ShowStudentActivity" />
-        <activity android:name=".DatabaseActivity" />
-        <activity android:name=".ShuffleWordActivity" />
-        <activity android:name=".ImplicitIntentActivity" />
-        <activity android:name=".SharedPreActivity" />
-        <activity android:name=".FileActivity" />
-        <activity android:name=".ToolbarActivity" />
-        <activity android:name=".TabbedActivity" />
-        <activity android:name=".FragmentActivity" />
-        <activity android:name=".SplashActivity" />
-        <activity android:name=".RecyclerViewActivity" />
-        <activity android:name=".UserDetailActivity" />
-        <activity android:name=".UserListView" />
-        <activity android:name=".FrameLayoutActivity" />
-        <activity android:name=".TableLayoutActivity" />
-        <activity android:name=".LayoutsActivity">
+        <activity android:name="com.example.classassessment.ExampleActivity"></activity>
+        <activity android:name="com.example.classassessment.FlagAppActivity" />
+        <activity android:name="com.example.classassessment.RetrofitEmpActivity" />
+        <activity android:name="com.example.classassessment.UpdateActivity" />
+        <activity android:name="com.example.classassessment.ShowStudentActivity" />
+        <activity android:name="com.example.classassessment.DatabaseActivity" />
+        <activity android:name="com.example.classassessment.ShuffleWordActivity" />
+        <activity android:name="com.example.classassessment.ImplicitIntentActivity" />
+        <activity android:name="com.example.classassessment.SharedPreActivity" />
+        <activity android:name="com.example.classassessment.FileActivity" />
+        <activity android:name="com.example.classassessment.ToolbarActivity" />
+        <activity android:name="com.example.classassessment.TabbedActivity" />
+        <activity android:name="com.example.classassessment.FragmentActivity" />
+        <activity android:name="com.example.classassessment.SplashActivity" />
+        <activity android:name="com.example.classassessment.RecyclerViewActivity" />
+        <activity android:name="com.example.classassessment.UserDetailActivity" />
+        <activity android:name="com.example.classassessment.UserListView" />
+        <activity android:name="com.example.classassessment.FrameLayoutActivity" />
+        <activity android:name="com.example.classassessment.TableLayoutActivity" />
+        <activity android:name="com.example.classassessment.LayoutsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShowActivity" />
-        <activity android:name=".RegdataActivity" />
-        <activity android:name=".TaskTwoActivity" />
-        <activity android:name=".TaskThreeActivity" />
-        <activity android:name=".TaskOneActivity" />
-        <activity android:name=".RelativeActivity" />
-        <activity android:name=".TaskFourActivity" />
-        <activity android:name=".CalculatorActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.classassessment.ShowActivity" />
+        <activity android:name="com.example.classassessment.RegdataActivity" />
+        <activity android:name="com.example.classassessment.TaskTwoActivity" />
+        <activity android:name="com.example.classassessment.TaskThreeActivity" />
+        <activity android:name="com.example.classassessment.TaskOneActivity" />
+        <activity android:name="com.example.classassessment.RelativeActivity" />
+        <activity android:name="com.example.classassessment.TaskFourActivity" />
+        <activity android:name="com.example.classassessment.CalculatorActivity" />
+        <activity android:name="com.example.classassessment.MainActivity" />
     </application>
 
 </manifest>
