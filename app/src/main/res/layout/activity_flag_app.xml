@@ -4,16 +4,16 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical">
-<!--
-    <TextView
-        android:id="@+id/nameCountry"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <!--
+        <TextView
+            android:id="@+id/nameCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
-    <ImageView
-        android:id="@+id/imageFlag"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />-->
+        <ImageView
+            android:id="@+id/imageFlag"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />-->
 
     <ImageView
         android:id="@+id/selectedImage"
@@ -35,19 +35,23 @@
     <EditText
         android:id="@+id/etCountry"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Country" />
 
     <Button
         android:id="@+id/addCountry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add Country" />
-    <TextView
-        android:id="@+id/txtView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add Country" />
 
-    
+
+
+
 
 </LinearLayout>

@@ -17,7 +17,6 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".ExampleActivity"></activity>
-        <activity android:name=".SumanActivity" />
         <activity android:name=".FlagAppActivity" />
         <activity android:name=".RetrofitEmpActivity" />
         <activity android:name=".UpdateActivity" />
