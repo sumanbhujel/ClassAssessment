@@ -83,6 +83,7 @@ public class FlagAppActivity extends AppCompatActivity {
         buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //uploadImage(image);
                 String c = editText.getText().toString();
                 addCountry(c, file_name);
             }
