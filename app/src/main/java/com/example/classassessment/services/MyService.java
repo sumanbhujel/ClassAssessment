@@ -10,7 +10,6 @@ import android.os.Handler;
 import androidx.annotation.Nullable;
 
 
-
 public class MyService extends Service {
     public Context context = this;
     public Handler handler = null;
