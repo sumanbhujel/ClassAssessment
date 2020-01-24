@@ -14,9 +14,7 @@ public class MyService extends Service {
     public Context context = this;
     public Handler handler = null;
     public Runnable runnable = null;
-
-    public MyService() {
-    }
+    int count = 0;
 
     @Nullable
     @Override
@@ -28,6 +26,7 @@ public class MyService extends Service {
         return (Math.random() * ((max - min) + 1)) + min;
     }
 
+
     @Override
     public void onCreate() {
         Toast.makeText(context, "Service created!", Toast.LENGTH_SHORT).show();
@@ -37,12 +36,16 @@ public class MyService extends Service {
         runnable = new Runnable() {
             @Override
             public void run() {
-                double randomNo = getRandomDoubleBetweenRange(1, 100);
-                Toast.makeText(context, "Random No: "+randomNo, Toast.LENGTH_SHORT).show();
+                //double randomNo = getRandomDoubleBetweenRange(1, 100);
+                count++;
+                Toast.makeText(context, "Count:" + count, Toast.LENGTH_SHORT).show();
+
+
+                //Toast.makeText(context, "Random No: "+randomNo, Toast.LENGTH_SHORT).show();
                 handler.postDelayed(runnable, 2000);
             }
         };
-        handler.postDelayed(runnable , 2000);
+        handler.postDelayed(runnable, 2000);
     }
 
     @Override

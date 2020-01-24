@@ -16,17 +16,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <service android:name=".services.MyService"
-            android:enabled="true"
-            android:exported="false">
-
-        </service>
-        <activity android:name=".NotificationActivity">
+        <activity android:name=".BoardcastActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <service
+            android:name=".services.MyService"
+            android:enabled="true"
+            android:exported="false"></service>
+
+        <activity android:name=".NotificationActivity">
+
         </activity>
         <activity android:name=".ExampleActivity" />
         <activity android:name=".FlagAppActivity" />
@@ -47,9 +51,7 @@
         <activity android:name=".UserListView" />
         <activity android:name=".FrameLayoutActivity" />
         <activity android:name=".TableLayoutActivity" />
-        <activity android:name=".LayoutsActivity">
-
-        </activity>
+        <activity android:name=".LayoutsActivity"></activity>
         <activity android:name=".ShowActivity" />
         <activity android:name=".RegdataActivity" />
         <activity android:name=".TaskTwoActivity" />
